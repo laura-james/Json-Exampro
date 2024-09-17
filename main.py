@@ -1,5 +1,5 @@
 import json
-
+#use the json file
 with open('exampro.json') as f:
     d = json.load(f)
 myfile = open("output.txt","a")
